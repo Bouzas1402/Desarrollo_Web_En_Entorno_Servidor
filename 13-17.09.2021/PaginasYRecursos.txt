@@ -1,0 +1,13 @@
+## Paginas y Recursos:
+### Arquitecturas y tecnologías de programación web:
+```
+https://servidor.codeandcoke.com/apuntes:introduccion
+```
+### Creación de páginas web dinámicas:
+```
+https://servidor.codeandcoke.com/apuntes:paginas_web
+```
+#### Características del lenguaje PHP:
+```
+https://ikastaroak.birt.eus/edu/argitalpen/backupa/20200331/1920k/es/DAW/DWES/DWES02/es_DAW_DWES02_Contenidos/website_index.html
+```
