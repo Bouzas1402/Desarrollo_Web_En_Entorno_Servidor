@@ -16,7 +16,7 @@ $sql = "CREATE TABLE usuarios (
         nombre VARCHAR(255) NOT NULL,
         apellidos VARCHAR(255),
         email VARCHAR(255),
-        telefono VARCHAR(50) UNIQUE)";
+        telefono VARCHAR(50) UNIQUE);";
 
 $sentencia = $conexion->prepare($sql);
 $sentencia->execute();
