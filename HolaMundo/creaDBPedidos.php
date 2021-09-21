@@ -11,12 +11,19 @@ $sentencia->execute();
 
 $conexion->select_db(DB_NOMBRE);
 
-$sql = "CREATE TABLE usuarios (
+$sql = "CREATE TABLE pedidos (
         id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        nombre VARCHAR(255) NOT NULL,
-        apellidos VARCHAR(255),
-        email VARCHAR(255),
-        telefono VARCHAR(50) UNIQUE)";
+        descripcion VARCHAR(255) NOT NULL,
+        precio VARCHAR(255),
+        fecha_pedido VARCHAR(255))";
+
+$sentencia = $conexion->prepare($sql);
+$sentencia->execute();
+
+$sql = "CREATE TABLE detalles (
+        id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        id_articulo VARCHAR(255) NOT NULL,
+        precio VARCHAR(255))";
 
 $sentencia = $conexion->prepare($sql);
 $sentencia->execute();
