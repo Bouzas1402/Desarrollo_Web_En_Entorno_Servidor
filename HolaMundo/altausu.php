@@ -12,10 +12,10 @@ $sql = "INSERT INTO usuarios (nombre, apellidos, email, telefono)
 
 
 
-$nombre = "Palomo";
+$nombre = "Palomdsfso";
 $apellidos = "Faci";
 $email = "santiago@gamil.com";
-$telefono = "123345144435435";
+$telefono = "1233451sdfsdf44435435";
 // bind_param solo admite nombres de variables ("ssss" indica el tipo de parametro de debemos meter, tantas eses como parametros me pide la instruccion):
 $sentencia = $conexion->prepare($sql);
 $sentencia->bind_param("ssss", $nombre, $apellidos, $email, $telefono);
