@@ -5,3 +5,22 @@ Tipos de cookies:
 https://protecciondatos-lopd.com/empresas/tipos-de-cookies/
 
 https://www.tutorialrepublic.com/php-tutorial/
+
+
+
+// ci / cd : integracion continua / despliegue constante)
+Jenkihs
+Sonar
+Git
+TDD: Test - Driven - Development
+
+// ELK:
+Elastic search
+Log stash
+Kibanna
+(Stack)
+
+//Gestion configuracion:
+Gestion conf
+Chef
+Puppet
